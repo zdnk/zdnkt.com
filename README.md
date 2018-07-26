@@ -13,4 +13,4 @@ Access, [localhost:4000/](http://localhost:4000/)
 
 ---
 
-Theme by @nandomoreirame, thanks!
+Theme by [@nandomoreirame](https://github.com/nandomoreirame/end2end), thanks!
