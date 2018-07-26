@@ -2,10 +2,7 @@
 permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: pygments
-plugins: [jekyll-paginate]
-gems:
-  - bourbon
-
+plugins: [jekyll-paginate, bourbon]
 
 paginate: 3
 paginate_path: "/blog/page/:num/"
@@ -33,12 +30,12 @@ disqus_site_shortname: "zdnkt"
 author:
   name: Zdenek
   job: Swift Engineer
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  bio: "Something smart should be written here. Well, I can't think of anything right now..."
   thumb: /images/avatar.jpg
   email: topic.zdenek@gmail.com
   url: https://zdnkt.com/
   github: https://github.com/zdnk
-  twitter: https://twitter.com/zdnk
+  twitter: https://twitter.com/zdnkt
   facebook: https://facebook.com/zdenektopic
   linkedin: https://linkedin.com/in/zdenektopic
 
