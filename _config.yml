@@ -15,7 +15,7 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: Zdenek Topic
+title: Zdenek — a Swift engineer
 description: "A young iOS and Swift developer"
 keywords: "ios, swift, programiing, development, engineer, developer, mobile"
 url: https://zdnkt.com
