@@ -1,1 +1,54 @@
-theme: jekyll-theme-cayman
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate]
+gems:
+  - bourbon
+
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Zdenek Topic
+description: "A young iOS and Swift developer"
+keywords: "ios, swift, programiing, development, engineer, developer, mobile"
+url: http://zdnkt.com
+baseurl: ""
+
+google_analytics: UA-100057367-3
+repo: http://github.com/zdnk/zdnkt.com
+disqus_shortname: "zdnkt"
+disqus_site_shortname: "zdnkt"
+
+# Author settings
+author:
+  name: Zdenek
+  job: Swift Engineer
+  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb: /images/avatar.jpg
+  email: topic.zdenek@gmail.com
+  url: https://zdnkt.com/
+  github: https://github.com/zdnk
+  twitter: https://twitter.com/zdnk
+  facebook: https://facebook.com/zdenektopic
+  linkedin: https://linkedin.com/in/zdenektopic
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
