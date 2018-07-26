@@ -10,3 +10,7 @@ Access, [localhost:4000/](http://localhost:4000/)
 
 ### Deploy
 1. Run `rake publish` for build and publish on Github
+
+---
+
+Theme by @nandomoreirame, thanks!
